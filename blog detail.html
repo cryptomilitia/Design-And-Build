@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Matere Design And Build</title>
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!--Bootstrap CSS CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Main JS File -->
+  <script src="assets/javascript/main.js"></script>
+
+  <!--Bootstrap Javascript CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--Bootstrap icons library CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!--Font awesome icon libraries-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+  <!--AOS Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+</head>
+
+<body>
+  <!--Topnav-->
+  <!--Nav wrapper-->
+  <nav class="fixed-top">
+    <!--Topnav-->
+    <nav class="topNav navbar navbar-expand-xl text-bg-primary">
+      <button class="mx-3 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleTopNav" aria-controls="collapsibleTopNav" aria-expanded="false" aria-label="Topnav toggler">
+        <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleTopNav">
+        <ul class="px-3 navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="text-decoration: none;" href="mailto:materedesignandbuild@gmail.com">
+              <span><i aria-hidden="true" class="fas fa-envelope" style="color: red;"></i></span>
+              <span>materedesignandbuild@gmail.com</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="text-decoration: none;" href="tel:+254725484688">
+              <span><i aria-hidden="true" class="fas fa-phone" style="color: red;"></i> +254 725 484 688</span>
+            </a>
+          </li>
+        </ul>
+
+        <!--Social media links-->  
+        <ul class="px-3 navbar-nav flex-row socialMedia">
+          <li class="nav-item">
+            <a class="nav-link px-2" href="https://web.facebook.com/profile.php?id=100063939943907" target="_blank">
+              <i aria-hidden="true" class="bi bi-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="https://wa.me/254725484688" target="_blank">
+              <i aria-hidden="true" class="bi bi-whatsapp"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="https://instagram.com/materedesign_build" target="_blank">
+              <i aria-hidden="true" class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="https://linkedin.com/MatereDesignAndBuild" target="_blank">
+              <i aria-hidden="true" class="bi bi-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>  
+
+    <!--Navigation bar-->
+    <nav class="p-3 mainNav navbar navbar-expand-xl bg-light">
+      <div class="container-fluid">
+        <!--Brand logo-->
+        <a class="navbar-brand" href="#">
+          <img class="d-inline-block align-text-top" src="#" alt="logo">Matere Design And Build
+        </a>
+        <!--Hamburger menu btn-->
+        <button type="button" class="navbar-toggler hamburger-btn" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-expanded="false">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+        <!--Navigation menu-->
+        <div class="collapse navbar-collapse justify-content-evenly" id="collapsibleNavbar"> 
+          <ul class="navbar-nav">
+          
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+          
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">ABOUT US</a>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">OUR SERVICES</a>
+              <ul class="dropdown-menu">
+                <li><a href="architectural design.html" class="dropdown-item">Architectural Design</a></li>
+                <li><a href="quantity survey.html" class="dropdown-item">Quantity Survey</a></li>
+                <li><a href="project mgt.html" class="dropdown-item">Project Management</a></li>
+                <li><a href="interior design.html" class="dropdown-item">Interior Design</a></li>
+                <li><a href="structural design.html" class="dropdown-item">Structural Design</a></li>
+                <li><a href="construction.html" class="dropdown-item">Construction</a></li>
+              </ul>
+            </li>
+          
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">PORTFOLIO</a>
+              <ul class="dropdown-menu">
+                <li><a href="portfolio.html" class="dropdown-item">All Projects</a></li>
+                <li><a href="#" class="dropdown-item">3D concepts</a></li>
+                <li><a href="#" class="dropdown-item">Maisonettes</a></li>
+                <li><a href="#" class="dropdown-item">Offices</a></li>
+                <li><a href="#" class="dropdown-item">Institutions</a></li>
+              </ul>
+            </li>
+          
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link active" aria-current="page">BLOG</a>
+            </li>
+          
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">CONTACT US</a>
+            </li>
+          </ul>
+          
+          <!--Search form-->
+          <form class="d-flex" role="search" method="get" action="forms/search.php">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="border-0 bg-light" type="submit">
+              <span><i aria-hidden="true" class="fas fa-search"></i></span>
+            </button>
+          </form>
+        
+        </div>
+      </div>
+    </nav>
+  </nav>
+
+<!--Blog banner-->
+  <div class="container-fluid banner">
+    <div class="banner-overlay text-center">
+      <h4 class="text-white display-5" style="font-weight: bold;">Blog Details</h4>
+      <!--Breadcrumb-->
+      <nav class="mt-2" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a style="text-decoration: none; color: white;" href="index.html">HOME</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a style="color: red; text-decoration: none;" href="blog detail.html">BLOG DETAILS</a></li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+    <!-- Blog details -->
+    <div class="container">
+        <div class="my-5 row justify-content-between">
+
+            <div class="col-lg-7 mainbar">
+  
+                <!-- Blog Details Section -->
+                <article class="article">
+
+                    <div class="post-img">
+                        <img src="assets/images/blog details/maisonette rear view.jpg" alt="blog-img" class="img-fluid">
+                    </div>
+
+                    <h2 class="my-3">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+
+
+                    <div class="content">
+                        <p>Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.</p>
+
+                        <p>Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.</p>
+                    
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eveniet corporis quae reiciendis iure explicabo eligendi? Est itaque adipisci molestias, mollitia harum optio tempore perspiciatis, modi cupiditate consequuntur magni quasi.</p>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam natus quisquam quo repellendus eos ex ipsa iure alias qui deleniti et veritatis, esse eveniet nisi vero amet tenetur cum. Magni!</p>
+                    
+                    </div><!-- End post content -->
+                </article>
+
+            </div>
+
+            <div class="bg-light p-3 col-lg-4 sidebar">
+
+                <!-- Categories Widget -->
+                <div class="my-4 categories-widget widget-item">
+
+                    <h4 class="widget-title">Categories</h4>
+                    <ul class="mt-3">
+                        <li><a href="#">Architecture </a></li>
+                        <li><a href="#">Interior Design </a></li>
+                        <li><a href="#">Quantity Survey </a></li>
+                        <li><a href="#">Structural Engineering </a></li>
+                        <li><a href="#">Construction </a></li>
+                        <li><a href="#">Project Management </a></li>
+                    </ul>
+                </div><!--/Categories Widget -->
+  
+                <!-- Similar Posts Widget -->
+                <div class="mt-5 similar-posts-widget widget-item">
+
+                    <h4 class="mb-3 widget-title">Similar Posts</h4>
+  
+                    <div class="post-item">
+                        <img src="assets/img/blog/blog-recent-1.jpg" alt="" class="flex-shrink-0">
+                        <div>
+                            <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
+                            <time datetime="2020-01-01">Jan 1, 2024</time>
+                        </div>
+                    </div><!-- End recent post item-->
+  
+                    <div class="post-item">
+                        <img src="assets/img/blog/blog-recent-2.jpg" alt="" class="flex-shrink-0">
+                        <div>
+                            <h4><a href="#">Quidem autem et impedit</a></h4>
+                            <time datetime="2020-01-01">Jan 1, 2024</time>
+                        </div>
+                    </div><!-- End recent post item-->
+  
+                    <div class="post-item">
+                        <img src="assets/img/blog/blog-recent-3.jpg" alt="" class="flex-shrink-0">
+                        <div>
+                            <h4><a href="#">Id quia et et ut maxime similique occaecati ut</a></h4>
+                            <time datetime="2020-01-01">Jan 1, 2024</time>
+                        </div>
+                    </div><!-- End recent post item-->
+  
+                    <div class="post-item">
+                        <img src="assets/img/blog/blog-recent-4.jpg" alt="" class="flex-shrink-0">
+                        <div>
+                            <h4><a href="#">Laborum corporis quo dara net para</a></h4>
+                            <time datetime="2020-01-01">Jan 1, 2024</time>
+                        </div>
+                    </div><!-- End recent post item-->
+  
+                    <div class="post-item">
+                        <img src="assets/img/blog/blog-recent-5.jpg" alt="" class="flex-shrink-0">
+                        <div>
+                            <h4><a href="#">Et dolores corrupti quae illo quod dolor</a></h4>
+                            <time datetime="2020-01-01">Jan 1, 2024</time>
+                        </div>
+                    </div><!-- End recent post item-->
+  
+                </div><!--/Recent Posts Widget -->
+  
+                <!-- Tags Widget -->
+                <div class="mt-4 tags-widget widget-item">
+  
+                    <h4 class="mb-3 widget-title">Tags</h4>
+                    <ul>
+                        <li><a href="#">Architecture Trends</a></li>
+                        <li><a href="#">Smart Home Technology</a></li>
+                        <li><a href="#">DIY Projects</a></li>
+                        <li><a href="#">Landscape Planning</a></li>
+                        <li><a href="#">Sustainable Building</a></li>
+                        <li><a href="#">Site Analysis</a></li>
+                        <li><a href="#">Renovation</a></li>
+                        <li><a href="#">Design Inspiration</a></li>
+                        <li><a href="#">Budget Tips</a></li>
+                        <li><a href="#">Quality Assurance</a></li>
+                    </ul>
+  
+                </div><!--/Tags Widget -->
+  
+            </div>
+  
+        </div>
+    
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid text-bg-dark">
+        <div class="py-5 container">
+          <div class="row">
+            <section class="p-3 col-lg-4 col-md-6">
+              <h3 class="footer-title">Let's Connect</h3>
+              <h4 class="pt-2">Reach out now</h4>
+              <ul class="contact-details">
+                <li class="contact-item">
+                  <span><i aria-hidden="true" class="fas fa-map-marker-alt" style="color: red;"></i></span>
+                  <span>MTC Plaza, opp Nice Digital City, Along Embu-Nrb Highway</span>
+                </li>
+                <li class="contact-item">         
+                  <span><i aria-hidden="true" class="fas fa-phone" style="color: red;"></i></span> 
+                  <span><a href="tel:+254725484688">+254 725 484 688</a></span>
+                </li>
+                <li class="contact-item flex-row">
+                  <span><i aria-hidden="true" class="fas fa-envelope" style="color: red;"></i></span>
+                  <span><a href="mailto:materedesignandbuild@gmail.com">materedesignandbuild@gmail.com</a></span>
+                </li>
+                <li class="contact-item">     
+                  <span><i aria-hidden="true" class="fas fa-clock" style="color: red;"></i></span>
+                  <span>Mon-Fri: 08:00 - 17:00 Sat: 09:00 -16:00 Sun: CLOSED</span>
+                </li>
+              </ul>
+              <!--Social media links-->  
+              <ul class="navbar-nav flex-row footer-socials">
+                <li class="nav-item">
+                  <a class="nav-link px-2" href="https://web.facebook.com/profile.php?id=100063939943907" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-2" href="https://wa.me/25472484688" target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-2" href="https://instagram.com/materedesign_build" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-2" href="https://linkedin.com/MatereDesignAndBuild" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </section>
+    
+            <div class="p-3 col-lg-4 col-md-6">
+              <h3 class="footer-title">Recent work</h3>
+              
+              <figure class="mt-3 article">
+                <img class="pt-3" src="assets/images/footer/img-1.jpg" alt="5-bedroom Maisonette" width="120px" height="100px">
+                <figcaption class="py-2 article-title">5 Bedroom maisonette in Mwea sub-urbs</figcaption>
+              </figure>
+              
+              <figure class="article">
+                <img class="pt-3" src="assets/images/footer/img-2.jpeg" alt="Hotpoint plaza" width="120px" height="100px">
+                <figcaption class="py-2 article-title">Hotpoint Business plaza, along Kutus-Kerugoya Rd</figcaption>
+              </figure>
+            
+            </div>
+      
+            <article class="p-3 col-lg-4 col-md-6">
+              <h3 class="footer-title">Latest Blog</h3>
+
+              <figure class="mt-3 article"> 
+                <img class="pt-3" src="assets/images/footer/img-3.jpeg" width="120px" height="100px" alt="home designs">
+                <figcaption class="py-2 article-title">6 unique home designs to consider in 2023 when building your home</figcaption>
+                <p class="publish-date" style="font-size:13px;"><time datetime="2023-08-05T00:00:00">March 28, 2024</time></p>
+              </figure>
+              
+              <figure class="article">
+                <img class="pt-3" src="assets/images/footer/img-4.jpeg" width="120px" height="100px" alt="interior designs">
+                <figcaption class="py-2 article-title">Style up your personal space with these 3 mesmerizing interior designs</figcaption>
+                <p class="publish-date" style="font-size:13px;"><time datetime="2023-07-15T00:00:00">April 29, 2024</time></p>
+              </figure>
+            
+            </article>             
+          </div>
+          <hr class="my-3">
+          <div class="text-center">
+            <span>&copy;2024. Matere Design & Build. All Rights Reserved</span>
+            <br>
+            <div class="mt-3 refferal">
+              <span>Built by <a href="https://wa.me/+254704784011" target="_blank">MK Tech Solutions</a></span>
+            </div>
+          </div>
+        </div>
+      </div>   
