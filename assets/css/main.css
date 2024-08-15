@@ -431,7 +431,7 @@
 /*Page banner*/
 /**/
  .banner{
-    height: 40vh;
+    height: 35vh;
     margin-top: 140px;  /*Ensures this <div> is offset from the fixed top nav*/
     background-image: url('../images/banner/banner-img.jpg');
     background-position: center;
