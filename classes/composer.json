@@ -1,0 +1,11 @@
+{
+    "name": "marto/classes",
+    "autoload": {
+        "psr-4": {
+            "Marto\\Classes\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

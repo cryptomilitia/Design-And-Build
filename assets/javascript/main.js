@@ -40,3 +40,17 @@ document.addEventListener('DOMContentLoaded', function() { // Ensure counter ini
         updateCounter();
     });
 });
+
+// Toastr configuration 
+toastr.options = {
+    "closeButton": true,
+    "progressBar": true,
+    "positionClass": "toast-top-right",
+    "timeOut": "5000",
+    "extendedTimeOut": "1000",
+    "preventDuplicates": true,
+    "escapeHtml": false
+};
+
+
+ 
