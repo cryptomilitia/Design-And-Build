@@ -3,7 +3,7 @@
         'name' => 'marto/classes',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '96aa1c3cd97eb1bd6b1de2425e16cb7d6ccb6af4',
+        'reference' => '5f8605070383339a494e47e0956a6c2510f170df',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'marto/classes' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '96aa1c3cd97eb1bd6b1de2425e16cb7d6ccb6af4',
+            'reference' => '5f8605070383339a494e47e0956a6c2510f170df',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

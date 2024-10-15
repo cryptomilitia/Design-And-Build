@@ -5,7 +5,7 @@ use PHPMailer\PHPMailer\Exception;
 
 include_once __DIR__ . '/../classes/vendor/autoload.php';
 
-// Check if form is submitted using POST method
+ //Check if form is submitted using POST method
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Get form fields and sanitize input (prevent XSS)
@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'smtp.gmail.com'; 
         $mail->Port = 465; 
         $mail->Username = 'dsprite496@gmail.com'; 
-        $mail->Password = 'rurw mqom txht mxxl'; // App password 
+        $mail->Password = '1234 5678 4321'; // App password rurw mqom txht mxxl
         //$mail->Password = getenv('SMTP_APP_PASSWORD'); // Use env variable for security
         $mail->SMTPSecure = 'tls';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
