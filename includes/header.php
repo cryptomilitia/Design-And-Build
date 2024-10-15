@@ -133,7 +133,7 @@
                         <a href="blog.html" class="nav-link">BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link active" aria-current="page">CONTACT US</a>
+                        <a href="contact.html" class="nav-link" aria-current="page">CONTACT US</a>
                     </li>
                 </ul>
           
